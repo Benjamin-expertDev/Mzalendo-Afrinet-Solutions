@@ -1,0 +1,181 @@
+body {
+    display: block;
+    background-color: sandybrown;
+    color: black;
+  font: 25px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #f1f1f1;
+  overflow: hidden;
+}
+
+
+ul li {
+  display: inline-block;
+}
+
+ul li a {
+  display: block;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+h1 {
+  color: #333;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="file"],
+textarea {
+  display: block;
+  margin-bottom: 10px;
+}
+
+button {
+  margin-right: 10px;
+}
+
+img {
+  width: 85%;
+    margin-bottom: auto;
+}
+
+#form label {
+  border: 2px slanted #ffffff;
+  display: block;
+  margin-bottom: 5px;
+  line-height: 54px;
+  .nav
+    {
+        {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"] {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+input[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+/* Optional styles for responsiveness */
+@media screen and (max-width: 480px) {
+  #form {
+    max-width: 100%;
+  }
+}
+    }
+}
+
+#form input[type="submit"] {
+  margin-top: 10px;
+}
+
+button{
+    background-color:whitesmoke; 
+    border: 2px solid black;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: sandybrown;
+    font-weight: bold;
+    width: 80px;
+    margin-bottom: 5px;
+    border-radius: 10px;
+}
+
+#sky {
+  background:url(https://cdn.rawgit.com/ManzDev/cursos-assets/gh-pages/css3/monkey-sky.png) repeat-X;
+  animation: movebg 9s linear infinite;
+}
+
+#sea {
+  background:url(https://cdn.rawgit.com/ManzDev/cursos-assets/gh-pages/css3/monkey-sea.png) repeat-x;
+  box-shadow:10px 10px 45px RGBA(0,0,0, 0.95) inset;
+  animation: movebg 7s linear infinite;
+  position:relative;
+  top:145px;
+}
+
+@keyframes movebg {
+  0% { background-position:550px }
+  100% { background-position:0 }
+}
+
+#gb {
+  width:104px;
+  height:150px;
+  background:url(https://cdn.rawgit.com/ManzDev/cursos-assets/gh-pages/css3/monkey-guybrush.png) no-repeat;
+  animation:gbwalk 1s steps(6) infinite;
+  margin:auto;
+  position:relative;
+  bottom:34px;
+  /* Ojo, muy costoso en rendimiento */
+  /* filter:drop-shadow(5px 5px 5px #000); */
+}
+
+@keyframes gbwalk {
+  0% { background-position:0 }
+  100% { background-position:-624px }
+}
+#sky {
+  background:url(https://cdn.rawgit.com/ManzDev/cursos-assets/gh-pages/css3/monkey-sky.png) repeat-X;
+  animation: movebg 9s linear infinite;
+}
+
+#sea {
+  background:url(https://cdn.rawgit.com/ManzDev/cursos-assets/gh-pages/css3/monkey-sea.png) repeat-x;
+  box-shadow:10px 10px 15px RGBA(0,0,0, 0.95) inset;
+  animation: movebg 7s linear infinite;
+  position:relative;
+  top:145px;
+}
+
+@keyframes movebg {
+  0% { background-position:550px }
+  100% { background-position:0 }
+}
+
+#gb {
+  width:104px;
+  height:150px;
+  background:url(https://cdn.rawgit.com/ManzDev/cursos-assets/gh-pages/css3/monkey-guybrush.png) no-repeat;
+  animation:gbwalk 1s steps(6) infinite;
+  margin:auto;
+  position:relative;
+  bottom:34px;
+  /* Ojo, muy costoso en rendimiento */
+  /* filter:drop-shadow(5px 5px 5px #000); */
+}
+
+@keyframes gbwalk {
+  0% { background-position:0 }
+  100% { background-position:-624px }
+}

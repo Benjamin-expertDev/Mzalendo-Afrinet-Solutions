@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Mzalendo Afrinet Telecoms</title>
+    
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Navigation Menu -->
+  <ul>
+    <li><a href="#home">Homepage</a></li>
+    <li><a href="#services">Services</a></li>
+    <li><a href="#gallery">Gallery</a></li>
+    <li><a href="#contacts">Contacts</a></li>
+    <li><a href="#about">About Us</a></li>
+    <li><a href="#form">Form</a></li>
+    <li><a href="#Fun page">Form</a></li>
+  </ul>
+
+  <!-- Homepage -->
+  <h1 id="home">Welcome to Mzalendo Afrinet!</h1>
+  <h1>This is the homepage.</h1>
+    <h1>Our Dedicated Support</h>
+     <h2>We understand that the Internet is evolving, our support Team is available for any queries</h2>
+    <p>Our team of experts is well-equipped to handle a wide range of issues, from technical difficulties to account inquiries. We are committed to providing timely and efficient support, ensuring that you have a seamless experience while navigating the digital landscape. Whether you have questions about our services, need troubleshooting assistance, or seek guidance on optimizing your online presence, our dedicated support team is here to help.</p>
+    <h1>Reliable Connectivity</h1>
+    <h2>Get Reliable Fast Internet to get you going. We have high end tech to ensure smooth Internet experience.</h2>
+    <p>When it comes to connectivity, we've got you covered. Our reliable and fast internet services will keep you connected and running smoothly. With our state-of-the-art technology, we guarantee a seamless internet experience. Whether you're browsing, streaming, or working, our high-end tech ensures a stable and efficient connection. Trust us to provide the reliable connectivity you need to stay productive and connected in today's fast-paced digital world.</p>
+    <h1>Safe and Secured</h1>
+<h2>We ensure your Internet experience is safe, free from external intrusion 🏁, All this for free.</h2>
+    <p>At our company, your safety and security are a top priority. We take measures to ensure that your internet experience is safe and free from external intrusion. We provide these services free of charge, giving you peace of mind as you browse, stream, and work online. Trust us to protect your sensitive information and keep your online activities secure. With our commitment to safety and security, you can enjoy the internet with confidence.</p>
+  <div>
+    <label for="username">Username:</label>
+    <input type="text" id="username" placeholder="Enter Valid Username">
+  </div>
+  <div>
+    <label for="email">Email:</label>
+    <input type="email" id="email" placeholder="Enter Email">
+  </div>
+  <div>
+    <label for="pass">Password (8 characters minimum):</label>
+    <input type="password" id="pass" minlength="8" required placeholder="Enter Password">
+  </div>
+    <button><input type="submit" value="Sign in"></button>
+
+  <p><input="date" id="date" placeholder="Enter Date"></p>
+
+  <p>If you are not signed up, please sign up here</p>
+  <p><button>Sign Up</button></p>
+
+  <label for="avatar">Choose a profile picture:</label>
+  <input type="file" id="avatar" name="avatar" accept="image/png, image/jpeg">
+
+  <!-- Services -->
+  <h2 id="services">Services</h2>
+  <ul>
+   <p> <li> High Speed Fiber Internet and WiFi
+       </li></p>
+      <p></p><button>Buy</button></p>
+          include(" Pay ");
+//like
+<?php
+include(" <?php
+if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+  // Initialize the variables
+  $consumer_key = 'Lms5EIf2gK16o1sptYPaA3HsfbGUd7fv';
+  $consumer_secret = 'dgfk1IefQx1SnG1A';
+  $Business_Code = '174379';
+  $Passkey = 'bfb279f9aa9bdbcf158e97dd71a467cd2e0c893059b10f78e6b72ada1ed2c919';
+  $Type_of_Transaction = 'CustomerPayBillOnline';
+  $Token_URL = 'https://sandbox.safaricom.co.ke/oauth/v1/generate?grant_type=client_credentials';
+  $phone_number = $_POST['phone_number'];
+  $OnlinePayment = 'https://sandbox.safaricom.co.ke/mpesa/stkpush/v1/processrequest';
+  $total_amount = $_POST['amount'];
+  $CallBackURL = 'https://2f50f430.ngrok.io/callback.php?key=yourpassword';
+  $Time_Stamp = date("Ymdhis");
+  $password = base64_encode($Business_Code . $Passkey . $Time_Stamp);
+
+  // Add your logic here for processing the form data and making the API requests
+  // ...
+}
+?> ");
+?>
+    <p> <li>CCTV Camera Installation</li></p>
+    <p><button>MPS</button></body></p>
+    <p><li>Website and IT Support</li></p>
+    <p><button>Static</button><button>Interactive</button></p>
+    
+    
+
+  </ul>
+
+  <!-- Gallery -->
+  <h2 id="gallery">Gallery</h2>
+<p> <img src="image.jpg" alt="Image 1"></p>
+<p> <img src="image2.jpg" alt="Image 2"></p>
+<p><img src="image3.jpg" alt="Image 3"></p>
+
+  <!-- Contacts -->
+  <h2 id="contacts">Contacts</h2>
+  <p>Email: mzalendoafrinet@gmail.com</p>
+  <p>Phone: 0712345678</p>
+
+  <!-- About Us -->
+  <h2 id="about">About Us</h2>
+  <p>This is a brief description of our company.</p>
+
+  <!-- Form -->
+  <form id="form">
+      <div class="nav"
+    <label for="name">What is your name?</label>
+    <input type="text" id="name" name="name" required><br><br>
+    <label for="email">What is your email?</label>
+    <input type="email" id="email" name="email" required><br><br>
+    <label for="location">Where do you live?</label>
+    <input type="text" id="location" name="location" required><br><br>
+<button> <input type="submit" value="Submit"></button>
+  </form>
+</div>
+  <p>You can also visit our social media platforms.</p>
+  <p><a href="https://www.instagram.com/benjih_the_great/" target="_blank">One Click</a></p>s
+<div>
+    <h1>People Invited and Referred:</h1>
+        <h2 id="count-el">0</h2>
+        <button id="increment-btn" onclick="increment()">ADD</button>
+    <button id="save-btn" onclick="save()">SAVE</button>
+    <p id="save-el">Previous entires: </p>
+        <script src="index.js"></script>
+        
+</div>
+</div>
+
+<!--FunPage-->
+    <section class="main-content">
+  <div class="avocode-wrap">
+    <h2 class="title title-1">Mzalendo Afrinet makes you smile</h2>
+
+    <h2 class="title title-2">It is a fast and reliable network</h2>
+
+    <div class="egg smile">
+      <div class="face">
+        <span class="eye left"></span>
+        <span class="eye right"></span>
+        <span class="mouth"></span>
+      </div>
+      <div class="line">
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+    <div class="egg happy">
+      <div class="face">
+        <span class="eye left"></span>
+        <span class="eye right"></span>
+        <span class="mouth"></span>
+      </div>
+      <span class="face-shadow"></span>
+      <div class="line">
+        <span></span>
+        <span></span>
+      </div>
+      <div class="line line1">
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+    <div class="star star2"></div>
+    <div class="star star4"></div>
+    <div class="sparkle">
+      <div class="circle-1"></div>
+      <div class="circle-2"></div>
+    </div>
+    <div class="sparkle sparkle-2">
+      <div class="circle-1"></div>
+      <div class="circle-2"></div>
+    </div>
+    <div class="sparkle sparkle-3">
+      <div class="circle-1"></div>
+      <div class="circle-2"></div>
+    </div>
+    <div class="sparkle sparkle-4">
+      <div class="circle-1"></div>
+      <div class="circle-2"></div>
+    </div>
+    <div class="sparkle sparkle-5">
+      <div class="circle-1"></div>
+      <div class="circle-2"></div>
+    </div>
+    <div class="plus plus-1"></div>
+    <div class="plus plus-2"> </div>
+    <div class="cool-circle cool-circle-1"></div>
+    <div class="cool-circle cool-circle-2"></div>
+    <div class="dot dot-1"></div>
+    <div class="dot dot-2"></div>
+    <div class="dot dot-3"></div>
+    <div class="dot dot-4"></div>
+      <div id="sky">
+  <div id="sea">
+    <div id="gb"></div>
+  </div>
+</div>
+
+<audio id="song" autoplay>
+  <source src="http://scummbar.com/mi2/MI1-CD/26%20-%20Monkey%20Island%20-%20Rock%20Remix%202.mp3">
+</audio>
+</section>
+</body>
+</html>
